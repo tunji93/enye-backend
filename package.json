@@ -1,0 +1,24 @@
+{
+  "name": "backend_enye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adebiyi Tope",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "append-query": "^2.1.0",
+    "axios": "^0.21.1",
+    "circular-json": "^0.5.9",
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.1"
+  }
+}
